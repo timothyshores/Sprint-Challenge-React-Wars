@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CardContainer from './components/CardContainer';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +34,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CardContainer character={this.state.starwarsChars} />
+        <img src="https://media.giphy.com/media/3owzVXoDN8iP0w3T68/giphy.gif" id="its-working" alt="it's working" />
       </div>
     );
   }

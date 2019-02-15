@@ -1,0 +1,15 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100100%;
+  margin: 20px auto;
+
+}
+
+.card {
+  border: 1px dashed white;
+  border-radius: 10px;
+  width: 30%;
+  margin: 20px;
+  text-align: center;
+}
