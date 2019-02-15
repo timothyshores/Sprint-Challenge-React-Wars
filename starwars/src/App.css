@@ -4,5 +4,34 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 2.5rem;
 }
 /* write your parent styles in here for your App.js */
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.card {
+  border: 1px dashed white;
+  border-radius: 10px;
+  /* padding: 10px 75px; */
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 20px 2px black;
+}
+
+#its-working {
+  margin: 25px;
+  width: 75vw;
+  /* box-shadow: 0 0 20px 2px black; */
+  border: 3px solid white; 
+  box-shadow: 0 0 10vw 1vw white;
+}
